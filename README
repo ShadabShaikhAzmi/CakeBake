@@ -1,0 +1,35 @@
+# for running the project on system follow this steps:
+1- install node and npm (already downloaded then ignore this step)
+2- goto the root folder inside "CakeBake"
+3- run command "npm install"
+4- run command "nodemon app.js"
+   ---server will start running---
+
+# Directory Structure
+1. config [FOLDER]
+    - this foder contain the database configuration
+2. controllers [FOLDER]
+    - this folder contain different file with their corresponding logic.
+3. middleware [FOLDER]
+    - this folder conatin different type of middleware which will check different thing at the time of request and response
+4. migrations [FOLDER]
+    - this folder contain table file and there structure
+5. models [FOLDER]
+    - this folder contain table and there models
+6. public [FOLDER]
+7. seeders [FOLDER]
+    - will used for dummy data.
+8. storage [FOLDER]
+    - will use for store the images and files
+9. .env [FILE]
+    - used for site credentials and all
+10. .gitignore [FILE]
+    - for ignoring the file to upload on github
+11. app.js [FILE]
+    - entry point of the site
+12. package-lock.json [FILE]
+    - list of package
+13. package.json [FILE]
+    - list of package and site details
+14. routes [FOLDER]
+    - folder with file contain list of route or url
